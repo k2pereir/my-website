@@ -1,18 +1,14 @@
 import './App.css';
+import Navbar from './components/navbar';
+import React from 'react'; 
 
 function App() {
   return (
     <div className="App">
-      <h1>Welcome to my App</h1>
-      <MyButton/>
+      <h1>I was a gorl in the village doing alright</h1>
+      <Navbar/>
     </div>
   );
-}
-
-function MyButton() {
-  return (
-    <button>Click me!</button>
-  )
 }
 
 export default App;
