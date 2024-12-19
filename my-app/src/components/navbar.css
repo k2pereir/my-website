@@ -1,6 +1,15 @@
 .navbar {
+    height: 3rem; 
+    width: 100vw; 
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    position: sticky; 
+    top: 0; 
+    z-index: 3; 
     background-color: lightblue;
-    padding: 10px;
   }
   
   .Menu {
@@ -9,12 +18,14 @@
   }
   
   .MenuListItem {
+    margin: 1rem; 
     cursor: pointer;
     text-decoration: none;
     color: black;
   }
-  
-  .menuButton {
-    display: none; /* Just for now */
+
+  .MenuListItem:hover {
+    color: black; 
+    padding-bottom: 0.5rem; 
+    border-bottom: 3px solid black;
   }
-  

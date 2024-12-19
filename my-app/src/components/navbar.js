@@ -10,7 +10,6 @@ const Navbar = () => {
                 <Link to="education" smooth={true} duration={500} className="MenuListItem">Education</Link>
                 <Link to="projects" smooth={true} duration={500} className="MenuListItem">Projects</Link>
             </div>
-            <button className="menuButton"></button>
         </nav>
     )
 }
