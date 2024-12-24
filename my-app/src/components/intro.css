@@ -1,0 +1,57 @@
+#me {
+    height: calc(100vh - 4rem); 
+    width: 100vw; 
+    max-width: 75rem; 
+    margin: 0 auto; 
+    overflow: hidden; 
+}
+
+.kaelyn {
+    position: absolute; 
+    z-index: -1; 
+    top: 9rem;
+    right: 0; 
+    object-fit: cover; 
+    height: 80vh; 
+}
+
+.aboutMe {
+    height: 40vh; 
+    font-size: 3rem; 
+    font-weight: 700; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    color: rgb(255, 255, 255); 
+}
+
+.greeting {
+    font-size: 2rem; 
+    font-weight: 200;
+    font-family: 'Lucinda Console', monospace;
+}
+
+.introName {
+    padding-top: 0.5rem; 
+    font-size: 5rem; 
+    font-weight: 500; 
+    font-family: 'Copporplate', fantasy;   
+    color: #fff; 
+    text-shadow: 0 0 10px #48bdcd, 0 0 20px #74efff, 0 0 30px #74efff, 0 0 40px #74efff, 0 0 50px #74efff, 0 0 60px #74efff;
+}   
+
+.bio {
+    padding-top: 1.5rem; 
+    font-size: 2rem; 
+    font-weight: 200; 
+    font-family: 'Lucinda Console', monospace;
+}
+
+.car {
+    position: absolute; 
+    top: 400px; 
+    right: 550px; 
+    object-fit: cover; 
+    height: 30vh; 
+    width: 30vw; 
+}
