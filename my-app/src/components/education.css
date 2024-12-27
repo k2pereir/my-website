@@ -1,0 +1,74 @@
+#education {
+    height: 90vh; 
+    width: 150vh; 
+    margin: 0 auto; 
+    overflow: hidden; 
+    font-family: 'Georgia', serif; 
+}
+
+.uni {
+    font-size: 1.5rem; 
+    font-weight: 350; 
+    display: flex; 
+    text-align: left; 
+    flex-direction: column; 
+    justify-content: center;
+    color: rgb(60, 65, 66);
+}
+
+.degree {
+    font-size: 2rem; 
+    font-weight: 600; 
+    display: flex; 
+    text-align: left; 
+    flex-direction: column; 
+    justify-content: center;
+    padding-bottom: 1rem; 
+}
+
+.involvement {
+    font-size: 1.7rem; 
+    font-weight: 600; 
+    display: flex; 
+    text-align: left; 
+    flex-direction: column; 
+    justify-content: center;
+    padding-top: 1rem; 
+    padding-bottom: 1rem; 
+}
+
+.awards {
+    font-size: 1.7rem; 
+    font-weight: 600; 
+    display: flex; 
+    text-align: left; 
+    flex-direction: column; 
+    justify-content: center;
+    padding-top: 1rem; 
+    padding-bottom: 1rem; 
+}
+
+
+/*
+.circleOne {
+    width: 300px; 
+    height: 300px; 
+    background-color: black; 
+    border-radius: 50%; 
+    box-shadow: 0 0 10px #48bdcd, 0 0 20px #74efff, 0 0 30px #74efff, 0 0 40px #74efff, 0 0 50px #74efff, 0 0 60px #74efff;
+    margin-top: -25rem; 
+    margin-left: 5rem; 
+    opacity: 0.2; 
+} 
+
+.circleTwo {
+    width: 150px; 
+    height: 150px; 
+    background-color: black; 
+    border-radius: 50%; 
+    box-shadow: 0 0 10px #ec8cec, 0 0 20px #ec8cec, 0 0 30px #ec8cec, 0 0 40px #ec8cec, 0 0 50px #ec8cec, 0 0 60px #ec8cec;
+    margin-top: -10rem; 
+    margin-left: 40rem; 
+    opacity: 0.2; 
+} 
+*/
