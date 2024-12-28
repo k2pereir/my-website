@@ -1,0 +1,14 @@
+#proj {
+    height: 100vh; 
+    width: 150vh; 
+    margin: 0 auto; 
+    overflow: hidden; 
+    font-family: 'Georgia', serif; 
+    align-items: center;
+}
+
+.title {
+    font-size: 2rem; 
+    margin-top: 1rem; 
+    margin-bottom: 3.5rem; 
+}

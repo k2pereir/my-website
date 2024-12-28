@@ -4,6 +4,7 @@ import React from 'react';
 import Intro from './components/intro'; 
 import AboutMe from './components/about-me';
 import Education from './components/education'; 
+import Projects from './components/projects';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Intro/>
       <AboutMe/>
       <Education/>
+      <Projects/>
     </div>
   );
 }
