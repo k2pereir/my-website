@@ -1,14 +1,44 @@
-#proj {
-    height: 100vh; 
-    width: 150vh; 
-    margin: 0 auto; 
-    overflow: hidden; 
-    font-family: 'Georgia', serif; 
-    align-items: center;
-}
-
 .title {
     font-size: 2rem; 
+    padding-top: 1rem; 
+    padding-bottom: 1rem; 
+}
+
+.subheading {
+    font-size: 1.5rem; 
+    padding-bottom: 3.5rem; 
+}
+
+.container {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.name {
+    font-size: 2rem; 
+    margin-top: 0.5rem; 
+    margin-bottom: 0.5rem; 
+    font-weight: bold;
+}
+
+.link {
+    font-size: 1.5rem; 
+    padding-bottom: 0.75rem; 
+    color: rgb(19, 25, 110); 
+}
+
+.link2 {
+    padding-bottom: 0.25rem; 
+}
+
+.image {
+    width: 500px;
+    height: 300px; 
+}
+
+.description {
+    font-size: 1rem; 
     margin-top: 1rem; 
-    margin-bottom: 3.5rem; 
+    margin-bottom: 1rem; 
 }
