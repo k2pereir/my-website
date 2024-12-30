@@ -61,7 +61,7 @@ const Projects = () => {
   }
 
   return (
-      <section id='education'>
+      <section id='projects'>
         <p className='title'>Here are some of my projects!</p>
         <p className='subheading'>Click on a project to learn more, click again to close</p>
          <Box maxWidth='1100px'>
