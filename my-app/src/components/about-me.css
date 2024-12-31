@@ -7,7 +7,6 @@
     position: relative;
 }
 
-
 .aboutme {
     font-size: 1.5rem;
     font-weight: 350;
@@ -15,17 +14,14 @@
     position: relative;
 }
 
-
 .intro {
     text-align: center;
 }
-
 
 .phrase {
     padding-top: 2rem;
     text-align: center;
 }
-
 
 .boxes {
     display: flex;
@@ -35,168 +31,193 @@
     position: relative;
 }
 
-
 .box {
     width: 300px;
     height: 300px;
     border: 2px solid rgb(60, 65, 66);
     border-radius: 8px;
+    overflow: hidden; 
     object-fit: cover;
+    position: relative; 
 }
 
-
-.arrows {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    height: 100%;
-    pointer-events: none;
+.carousel-image {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    transition: opacity 0.5s ease; 
 }
 
-
-.arrow {
-    position: absolute;
-    width: 0;
-    height: 0;
-    border-style: solid;
+.carousel-buttons {
+    position: absolute; 
+    top: 50%; 
+    width: 100%; 
+    display: flex; 
+    justify-content: space-between;
+    transform: translateY(-50%);
+    z-index: 10; 
 }
 
+.arrow-left, .arrow-right {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white; 
+    border: none; 
+    padding: 10px; 
+    cursor: pointer; 
+    font-size: 1.5rem; 
+}
 
-.arrow-music {
+.arrow-left:hover, .arrow-right:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.pointers {
+    position: absolute; 
+    top: 50%; 
+    width: 100%; 
+    height: 100%; 
+    pointer-events: none; 
+}
+
+.point {
+    position: absolute; 
+    width: 0; 
+    height: 0; 
+    border-style: solid; 
+}
+
+.point-music {
     border-width: 0 10px 10px 10px;
     border-color: transparent transparent rgb(60, 65, 66) transparent;
-    top: -30%;
+    top: -33%;
     left: 41.2%;
 }
 
-
-.arrow-cooking {
+.point-cooking {
     border-width: 0 10px 10px 10px;
     border-color: transparent transparent rgb(60, 65, 66) transparent;
-    top: -30%;
+    top: -33%;
     left: 49%;
 }
 
-
-.arrow-reading {
+.point-reading {
     border-width: 0 10px 10px 10px;
     border-color: transparent transparent rgb(60, 65, 66) transparent;
-    top: -30%;
+    top: -33%;
     left: 58%;
 }
 
-
-.arrow-traveling {
+.point-traveling {
     border-width: 0 10px 10px 10px;
     border-color: transparent transparent rgb(60, 65, 66) transparent;
-    top: -30%;
+    top: -33%;
     left: 71.5%;
 }
 
 .music-vertical-1 {
-    position: absolute; 
-    width: 3px; 
+    position: absolute;
+    width: 3px;
     height: 30px;
-    margin-top: -352px; 
-    margin-left: 521.5px; 
-    background-color: rgb(60, 65, 66); 
+    margin-top: -352px;
+    margin-left: 521.5px;
+    background-color: rgb(60, 65, 66);
 }
 
 .music-horizontal {
-    position: absolute; 
+    position: absolute;
     border: 0;
-    border-top: 3px solid rgb(60, 65, 66); 
-    width: 340px; 
-    margin-top: -325px; 
-    margin-left: 184px; 
+    border-top: 3px solid rgb(60, 65, 66);
+    width: 340px;
+    margin-top: -325px;
+    margin-left: 184px;
 }
 
 .music-vertical-2 {
-    position: absolute; 
-    width: 3px; 
+    position: absolute;
+    width: 3px;
     height: 24px;
-    margin-top: -322px; 
-    margin-left: 184px; 
-    background-color: rgb(60, 65, 66); 
+    margin-top: -322px;
+    margin-left: 184px;
+    background-color: rgb(60, 65, 66);
 }
 
 .cooking-vertical-1 {
-    position: absolute; 
-    width: 3px; 
+    position: absolute;
+    width: 3px;
     height: 30px;
-    margin-top: -352px; 
-    margin-left: 618px; 
-    background-color: rgb(60, 65, 66); 
+    margin-top: -352px;
+    margin-left: 618px;
+    background-color: rgb(60, 65, 66);
 }
 
 .cooking-horizontal {
-    position: absolute; 
+    position: absolute;
     border: 0;
-    border-top: 3px solid rgb(60, 65, 66); 
-    width: 50px; 
-    margin-top: -325px; 
-    margin-left: 570px; 
+    border-top: 3px solid rgb(60, 65, 66);
+    width: 50px;
+    margin-top: -325px;
+    margin-left: 570px;
 }
 
 .cooking-vertical-2 {
-    position: absolute; 
-    width: 3px; 
+    position: absolute;
+    width: 3px;
     height: 24px;
-    margin-top: -322px; 
-    margin-left: 570px; 
-    background-color: rgb(60, 65, 66); 
+    margin-top: -322px;
+    margin-left: 570px;
+    background-color: rgb(60, 65, 66);
 }
 
 .reading-vertical-1 {
-    position: absolute; 
-    width: 3px; 
+    position: absolute;
+    width: 3px;
     height: 30px;
-    margin-top: -352px; 
-    margin-left: 731px; 
-    background-color: rgb(60, 65, 66); 
+    margin-top: -352px;
+    margin-left: 731px;
+    background-color: rgb(60, 65, 66);
 }
 
 .reading-horizontal {
-    position: absolute; 
+    position: absolute;
     border: 0;
-    border-top: 3px solid rgb(60, 65, 66); 
-    width: 80px; 
-    margin-top: -325px; 
+    border-top: 3px solid rgb(60, 65, 66);
+    width: 80px;
+    margin-top: -325px;
     margin-left: 732px;
 }
 
 .reading-vertical-2 {
-    position: absolute; 
-    width: 3px; 
+    position: absolute;
+    width: 3px;
     height: 24px;
-    margin-top: -322px; 
-    margin-left: 809px; 
-    background-color: rgb(60, 65, 66); 
+    margin-top: -322px;
+    margin-left: 809px;
+    background-color: rgb(60, 65, 66);
 }
 
 .traveling-vertical-1 {
-    position: absolute; 
-    width: 3px; 
+    position: absolute;
+    width: 3px;
     height: 30px;
-    margin-top: -352px; 
-    margin-left: 899.5px; 
-    background-color: rgb(60, 65, 66); 
+    margin-top: -352px;
+    margin-left: 899.5px;
+    background-color: rgb(60, 65, 66);
 }
 
 .traveling-horizontal {
-    position: absolute; 
+    position: absolute;
     border: 0;
-    border-top: 3px solid rgb(60, 65, 66); 
-    width: 180px; 
-    margin-top: -325px; 
+    border-top: 3px solid rgb(60, 65, 66);
+    width: 180px;
+    margin-top: -325px;
     margin-left: 899.5px;
 }
 
 .traveling-vertical-2 {
-    position: absolute; 
-    width: 3px; 
+    position: absolute;
+    width: 3px;
     height: 24px;
-    margin-top: -322px; 
-    margin-left: 1076.5px; 
+    margin-top: -322px;
+    margin-left: 1076.5px;
     background-color: rgb(60, 65, 66);
-}
+} 
