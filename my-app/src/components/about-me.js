@@ -1,10 +1,23 @@
 import React from 'react';
 import './about-me.css';
-import me from './images/temp_me.jpg';
-import home from './images/temp.png';
-import sign from './images/sign.png';
+import me from './projects-images/temp_me.jpg';
+import home from './projects-images/temp.png';
+import sign from './projects-images/sign.png';
 import {useState} from 'react';
-
+import floralCake from './about-me-images/floral_cake.jpg';
+import layerCake from './about-me-images/layer_cake.jpg';
+import naan from './about-me-images/naan.JPG';
+import pretzels from './about-me-images/pretzels.jpg';
+import pasta from './about-me-images/uncooked_tortellini.jpg';
+import annotation from './about-me-images/annotation.jpg';
+import book from './about-me-images/book_and_tea.jpg';
+import jane from './about-me-images/jane_austen.jpg';
+import forest from './about-me-images/forest_brims_over.jpg';
+import pose from './about-me-images/pose.jpg';
+import lotr from './about-me-images/lotr.jpg';
+import snow from './about-me-images/snow.jpg';
+import grass from './about-me-images/grass.jpg';
+import orchestra from './about-me-images/orchestra.jpg';
 
 const AboutMe = () => {
     const [musicIndex, setMusicIndex] = useState(0);
@@ -12,10 +25,10 @@ const AboutMe = () => {
     const [readingIndex, setReadingIndex] = useState(0);
     const [travelingIndex, setTravelingIndex] = useState(0);
 
-    const musicImages = [me, home, sign];
-    const cookingImages = [me, home, sign];
-    const readingImages = [me, home, sign];
-    const travelingImages = [me, home, sign];
+    const musicImages = [orchestra];
+    const cookingImages = [pasta, layerCake, naan, floralCake, pretzels];
+    const readingImages = [jane, book, annotation, forest];
+    const travelingImages = [pose, snow, lotr, grass];
 
     const handleImageChange = (setIndex, index, totalImages) => {
         console.log(`Current index: ${index}, Total images: ${totalImages}`);
@@ -26,7 +39,6 @@ const AboutMe = () => {
         });
     };
     
-;
     return (
         <section id="aboutme">
             <div className="aboutme">
@@ -63,10 +75,10 @@ const AboutMe = () => {
                     </div> 
                 </div>
                 <div className='pointers'>
-                    <div className='point point-music'></div>
-                    <div className='point point-cooking'></div>
-                    <div className='point point-reading'></div>
-                    <div className='point point-traveling'></div>
+                    <div className='point-to point-to-music'></div>
+                    <div className='point-to point-to-cooking'></div>
+                    <div className='point-to point-to-reading'></div>
+                    <div className='point-to point-to-traveling'></div>
                 </div>
                 <div className="music-vertical-1"></div>
                 <hr className='music-horizontal'/>

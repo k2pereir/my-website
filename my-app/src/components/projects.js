@@ -2,12 +2,12 @@ import React from 'react';
 import './projects.css'; 
 import {Box, RadioCards, Flex, Text} from '@radix-ui/themes'; 
 import {useState} from 'react'; 
-import personalWeb from './images/temp.png';
-import signQuest from './images/sign.png'; 
-import sewstain from './images/sewstainability.png';
-import rps from './images/rps.png';
-import financialtracker from './images/financialtracker.png'; 
-import varos from './images/varos.png'; 
+import personalWeb from './projects-images/temp.png';
+import signQuest from './projects-images/sign.png'; 
+import sewstain from './projects-images/sewstainability.png';
+import rps from './projects-images/rps.png';
+import financialtracker from './projects-images/financialtracker.png'; 
+import varos from './projects-images/varos.png'; 
 
 const Projects = () => {
 
@@ -64,8 +64,8 @@ const Projects = () => {
       <section id='projects'>
         <p className='title'>Here are some of my projects!</p>
         <p className='subheading'>Click on a project to learn more, click again to close</p>
-         <Box maxWidth='1100px'>
-          <RadioCards.Root defaultValue='1' size='3' columns={{initial: '1', sm: '4'}} style={{gap: '5rem'}}>
+         <Box maxWidth='1100px' style={{margin: '0 auto', textAlign: 'center'}} >
+          <RadioCards.Root defaultValue='1' size='3' columns={{initial: '1', sm: '3'}} style={{gap: '5rem'}}>
             <RadioCards.Item value = '1' style={{width: '120%'}} onClick={() => setSelectedProject('Personal Website')}>
               <Flex direction='column' width='100%' >
                 <Text weight='bold' style={{fontSize: '30px'}}>

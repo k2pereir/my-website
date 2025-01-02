@@ -79,38 +79,38 @@
     pointer-events: none; 
 }
 
-.point {
+.point-to {
     position: absolute; 
     width: 0; 
     height: 0; 
     border-style: solid; 
 }
 
-.point-music {
+.point-to-music {
     border-width: 0 10px 10px 10px;
     border-color: transparent transparent rgb(60, 65, 66) transparent;
-    top: -33%;
+    top: -30%;
     left: 41.2%;
 }
 
-.point-cooking {
+.point-to-cooking {
     border-width: 0 10px 10px 10px;
     border-color: transparent transparent rgb(60, 65, 66) transparent;
-    top: -33%;
+    top: -30%;
     left: 49%;
 }
 
-.point-reading {
+.point-to-reading {
     border-width: 0 10px 10px 10px;
     border-color: transparent transparent rgb(60, 65, 66) transparent;
-    top: -33%;
+    top: -30%;
     left: 58%;
 }
 
-.point-traveling {
+.point-to-traveling {
     border-width: 0 10px 10px 10px;
     border-color: transparent transparent rgb(60, 65, 66) transparent;
-    top: -33%;
+    top: -30%;
     left: 71.5%;
 }
 
