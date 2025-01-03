@@ -1,8 +1,5 @@
 import React from 'react';
 import './about-me.css';
-import me from './projects-images/temp_me.jpg';
-import home from './projects-images/temp.png';
-import sign from './projects-images/sign.png';
 import {useState} from 'react';
 import floralCake from './about-me-images/floral_cake.jpg';
 import layerCake from './about-me-images/layer_cake.jpg';
@@ -42,6 +39,7 @@ const AboutMe = () => {
     return (
         <section id="aboutme">
             <div className="aboutme">
+                <h1 className='about-me-title'>About Me</h1>
                 <p className='intro'>Beyond my academic and professional pursuits, I try to maintain a healthy work-school-life balance through hobbies</p>
                 <p className='phrase'>For me, this means <b>music, cooking, reading, and traveling</b>!</p>
                 <div className='boxes'>

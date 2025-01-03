@@ -1,5 +1,7 @@
 import React from 'react'; 
 import './education.css'; 
+import grad from './education-images/grad.jpg'; 
+import waterloo from './education-images/waterloo.jpg';
 
 const Education = () => {
     return (
@@ -30,6 +32,7 @@ const Education = () => {
                             <li>Volunteerism Community Award</li>
                         </ul>
                     </div>
+                    <img className='highschool-grad' src={grad} alt='graduation'/>
                 </div>
                 <div className='contain university'>
                     <div className='content'>
@@ -66,11 +69,12 @@ const Education = () => {
                         </ul>
                         <p className='point'>Awards</p>
                         <ul className='point-details' style={{listStyleType:'disc', paddingLeft: '20px'}}>
-                            <li>President’s Scholarship of Distinction</li>
+                            <li>President's Scholarship of Distinction</li>
                             <li>Kothari Family FIRST Alumni Entrance Scholarship</li>
                             <li>Ricoh Canada's Jane Padwick Scholarship</li>
                         </ul>
                     </div>
+                    <img className='waterloo-sign' src={waterloo} alt='waterloo'/>
                 </div>
             </div>  
         </section>

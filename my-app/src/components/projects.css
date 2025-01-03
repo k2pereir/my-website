@@ -1,9 +1,14 @@
 #projects {
-    height: 60vh; 
+    height: 50vh; 
     width: 150vh; 
     margin: 0 auto; 
     overflow: hidden; 
     font-family: 'Georgia', serif;
+}
+
+.projects-title {
+    padding-bottom: 2rem; 
+    font-size: 2.5rem;
 }
 
 .title {
@@ -28,16 +33,20 @@
     padding-top: 0.5rem; 
     padding-bottom: 0.5rem; 
     font-weight: bold;
+    color: rgb(242, 243, 245);
 }
 
 .link {
-    font-size: 1.5rem; 
+    font-size: 1rem; 
     padding-bottom: 0.75rem; 
-    color: rgb(19, 25, 110); 
+    color: rgb(242, 243, 245); 
+    text-decoration: underline; 
 }
 
 .link2 {
-    padding-bottom: 0.25rem; 
+    padding-bottom: 0.25rem;
+    color: rgb(242, 243, 245); 
+    text-decoration: underline; 
 }
 
 .image {
@@ -49,4 +58,5 @@
     font-size: 1rem; 
     margin-top: 1rem; 
     margin-bottom: 1rem; 
+    color: rgb(242, 243, 245);
 }
