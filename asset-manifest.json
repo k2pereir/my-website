@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/my-website/static/css/main.77b85ae0.css",
+    "main.js": "/my-website/static/js/main.42dd59f1.js",
+    "static/media/jane_austen.jpg": "/my-website/static/media/jane_austen.986be198d3985a968ed7.jpg",
+    "static/media/forest_brims_over.jpg": "/my-website/static/media/forest_brims_over.9383988b3169fc36f578.jpg",
+    "static/media/book_and_tea.jpg": "/my-website/static/media/book_and_tea.b997a0ce40d8bff9746f.jpg",
+    "static/media/personal_web.png": "/my-website/static/media/personal_web.e93d50e2e89034c91956.png",
+    "static/media/orchestra.jpg": "/my-website/static/media/orchestra.375214ae39744d66567b.jpg",
+    "static/media/profile.jpg": "/my-website/static/media/profile.1a9ffc9f9d65ac2b388d.jpg",
+    "static/media/annotation.jpg": "/my-website/static/media/annotation.dc40116e57b8df95dba7.jpg",
+    "static/media/rps.png": "/my-website/static/media/rps.448799a52b1cba850ffd.png",
+    "static/media/lotr.jpg": "/my-website/static/media/lotr.3d8ce64fad8bd64eb55e.jpg",
+    "static/media/grad.jpg": "/my-website/static/media/grad.8ab3c497d3b865d0affd.jpg",
+    "static/media/grass.jpg": "/my-website/static/media/grass.c53e46f76b4ad6f9251e.jpg",
+    "static/media/waterloo.jpg": "/my-website/static/media/waterloo.95c746e8446c720c3642.jpg",
+    "static/media/pose.jpg": "/my-website/static/media/pose.5bd06420df5898f56f37.jpg",
+    "static/media/snow.jpg": "/my-website/static/media/snow.6d75aefb7db08235f091.jpg",
+    "static/media/pretzels.jpg": "/my-website/static/media/pretzels.8fd3a343c6723944cad7.jpg",
+    "static/media/layer_cake.jpg": "/my-website/static/media/layer_cake.01f36011e1fd1a73ee97.jpg",
+    "static/media/floral_cake.jpg": "/my-website/static/media/floral_cake.e6c9b0e6a8b93e1f4949.jpg",
+    "static/media/naan.JPG": "/my-website/static/media/naan.a1a1adb78b68fbadbbbd.JPG",
+    "static/media/financialtracker.png": "/my-website/static/media/financialtracker.d6677f2a0c2b08478c9f.png",
+    "static/media/uncooked_tortellini.jpg": "/my-website/static/media/uncooked_tortellini.1e6a60be023cae62d1d2.jpg",
+    "static/media/sign.png": "/my-website/static/media/sign.c788f90cc62ea6f3e8f7.png",
+    "static/media/sewstainability.png": "/my-website/static/media/sewstainability.562627bc60fddd07c283.png",
+    "static/media/varos.png": "/my-website/static/media/varos.54b2a51271296d38a66a.png",
+    "index.html": "/my-website/index.html",
+    "main.77b85ae0.css.map": "/my-website/static/css/main.77b85ae0.css.map",
+    "main.42dd59f1.js.map": "/my-website/static/js/main.42dd59f1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.77b85ae0.css",
+    "static/js/main.42dd59f1.js"
+  ]
+}
