@@ -51,6 +51,11 @@
 
 .image {
     width: 500px;
+    height: 350px; 
+}
+
+.image1 {
+    width: 550px;
     height: 300px; 
 }
 
