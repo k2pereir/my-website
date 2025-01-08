@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-website/static/css/main.69cb5527.css",
-    "main.js": "/my-website/static/js/main.70d33be7.js",
+    "main.css": "/my-website/static/css/main.c7e86ffe.css",
+    "main.js": "/my-website/static/js/main.89f4483e.js",
     "static/media/jane_austen.jpg": "/my-website/static/media/jane_austen.986be198d3985a968ed7.jpg",
     "static/media/forest_brims_over.jpg": "/my-website/static/media/forest_brims_over.9383988b3169fc36f578.jpg",
     "static/media/book_and_tea.jpg": "/my-website/static/media/book_and_tea.b997a0ce40d8bff9746f.jpg",
@@ -26,11 +26,11 @@
     "static/media/sewstainability.png": "/my-website/static/media/sewstainability.562627bc60fddd07c283.png",
     "static/media/varos.png": "/my-website/static/media/varos.54b2a51271296d38a66a.png",
     "index.html": "/my-website/index.html",
-    "main.69cb5527.css.map": "/my-website/static/css/main.69cb5527.css.map",
-    "main.70d33be7.js.map": "/my-website/static/js/main.70d33be7.js.map"
+    "main.c7e86ffe.css.map": "/my-website/static/css/main.c7e86ffe.css.map",
+    "main.89f4483e.js.map": "/my-website/static/js/main.89f4483e.js.map"
   },
   "entrypoints": [
-    "static/css/main.69cb5527.css",
-    "static/js/main.70d33be7.js"
+    "static/css/main.c7e86ffe.css",
+    "static/js/main.89f4483e.js"
   ]
 }
