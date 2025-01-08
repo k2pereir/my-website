@@ -1,12 +1,13 @@
 #projects {
-    height: 50vh; 
-    width: 150vh; 
+    height: 60vh; 
+    width: 90%; 
     margin: 0 auto; 
     overflow: hidden; 
     font-family: 'Georgia', serif;
 }
 
 .projects-title {
+    padding-top: 2rem; 
     padding-bottom: 2rem; 
     font-size: 2.5rem;
 }
@@ -50,13 +51,13 @@
 }
 
 .image {
-    width: 500px;
-    height: 350px; 
+    width: 30vw;
+    height: 20vw; 
 }
 
 .image1 {
-    width: 550px;
-    height: 300px; 
+    width: 33vw;
+    height: 20vw; 
 }
 
 .description {

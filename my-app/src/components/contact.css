@@ -1,6 +1,6 @@
 #contact-me {
     height: 20vh; 
-    width: 150vh; 
+    width: 90%; 
     margin: 0 auto; 
     overflow: hidden; 
     font-family: 'Georgia', serif; 
@@ -14,6 +14,7 @@
 .contact-info {
     padding-top: 0.5rem; 
     font-size: 1.2rem; 
+    margin: 0 auto; 
+    max-width: 800px; 
     text-align: left; 
-    margin-left: 20rem; 
 }

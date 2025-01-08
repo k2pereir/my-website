@@ -35,7 +35,7 @@ const Education = () => {
                     <img className='highschool-grad' src={grad} alt='graduation'/>
                 </div>
                 <div className='contain university'>
-                    <div className='content'>
+                    <div className='content2'>
                         <h3 className='year'>2024-2029</h3>
                         <p className='edu-type'> University of Waterloo</p>
                         <p className='degree'> Bachelor of Applied Sciences in Management Engineering</p>
